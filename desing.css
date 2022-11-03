@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding-top: 600px ;
+}
+#inicio{
+    position: absolute;
+    bottom: 0;
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(15, 80, 160) 0%,rgb(187, 127, 31) 100%);
+}
+#biografia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 50px;
+}
+#linha{
+    width: 70px;
+    height: 5px;
+    margin: 8px auto;
+    background-color: black;
+}
+.menu{
+    list-style: none;
+    position: fixed;
+    top:10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+    }
+    .item{
+        display: inline;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-right: 7px;
+        padding-bottom: 5px;
+        font-size: 20px;
+        font-family: fantasy;
+        color: black;
+    }
+    #nome{
+        font-family: 'Kalam', cursive;
+        font-size: 40px;
+    }
+    a{
+        color: black;
+        text-decoration: underline;
+    }
